@@ -1,0 +1,2 @@
+{block:IfNotLogoPositionCentre}<div id="logo_index_left">{block:IfNotLogoImageImage}<a href="/">{Title}</a>{/block:IfNotLogoImageImage}
+{block:IfLogoImageImage}<a href="/"><img src="{image:LogoImage}" alt="logo" /></a>{/block:IfLogoImageImage}</div>{/block:IfNotLogoPositionCentre}
