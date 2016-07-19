@@ -17,7 +17,7 @@ body {
 }
 
 .home {
- background: url(../images/selbstportrait.jpg) no-repeat center center fixed;
+ background: url(../images/aquarell_selbst.tif) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -33,12 +33,12 @@ body {
 .n {
  font-family: Oranienbaum, Helvetica, serif;
  font-size: 150px;
- color: black;
+ color: white;
  opacity: 1.0;
  text-align: center;
  width: 100%;
  position: absolute;
- top: 30%;
+ top: 50%;
  -webkit-transform: translateY(-50%);
  -ms-transform: translateY(-50%);
  transform: translateY(-50%);
@@ -47,3 +47,14 @@ body {
 a{
   text-decoration: none;
 }
+
+a:hover{
+  opacity:0.8;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
