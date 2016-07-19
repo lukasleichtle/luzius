@@ -1,2 +1,49 @@
-{block:IfNotLogoPositionCentre}<div id="logo_index_left">{block:IfNotLogoImageImage}<a href="/">{Title}</a>{/block:IfNotLogoImageImage}
-{block:IfLogoImageImage}<a href="/"><img src="{image:LogoImage}" alt="logo" /></a>{/block:IfLogoImageImage}</div>{/block:IfNotLogoPositionCentre}
+.navigation{
+    display:inline-block;
+    background-color:white;
+
+}
+.nav_options{
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Helvetica, Arial, sans-serif;
+ color: grey;
+
+}
+
+.home {
+ background: url(../images/selbstportrait.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.startseite {
+ width: 100%
+ height: 100%,
+}
+
+
+.n {
+ font-family: Oranienbaum, Helvetica, serif;
+ font-size: 150px;
+ color: black;
+ opacity: 1.0;
+ text-align: center;
+ width: 100%;
+ position: absolute;
+ top: 30%;
+ -webkit-transform: translateY(-50%);
+ -ms-transform: translateY(-50%);
+ transform: translateY(-50%);
+}
+
+a{
+  text-decoration: none;
+}
