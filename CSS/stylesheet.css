@@ -1,13 +1,3 @@
-.navigation{
-    display:inline-block;
-    background-color:white;
-
-}
-.nav_options{
-    border-bottom: 1px solid;
-    border-color: black;
-}
-
 body {
  margin: 0;
  padding: 0;
@@ -17,7 +7,7 @@ body {
 }
 
 .home {
- background: url(../images/aquarell_selbst.tif) no-repeat center center fixed;
+ background: url(../images/LUziUs.gif) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -25,17 +15,18 @@ body {
 }
 
 .startseite {
- width: 100%
+ width: 100%;
  height: 100%,
 }
 
 
 .n {
- font-family: Oranienbaum, Helvetica, serif;
+ font-family: Value-Bold, Helvetica, serif;
  font-size: 150px;
  color: white;
  opacity: 1.0;
  text-align: center;
+ padding:0 20px 0 0;
  width: 100%;
  position: absolute;
  top: 50%;
@@ -52,9 +43,46 @@ a:hover{
   opacity:0.8;
 }
 
-.wrapper {
+/*.wrapper {
   width: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
+}*/
+
+.main-header{
+  height: 20%;
+  width: 100%;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar {
+    width:100%;
+    height: auto;
+    text-align: center;
+    margin:0;
+    padding:40px 0 0 0;
+}
+
+.navbar li{
+  width: auto;
+  /*float:left;*/
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar li a{
+  width: auto;
+  font-family: Helvetica,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color:black;
+  border-bottom: 1px solid;
+  display: block;
+  padding: 10px 0 7px 0;;
+  margin: 0px 30px;
+  float: left;
+}
