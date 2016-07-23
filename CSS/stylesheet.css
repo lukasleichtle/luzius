@@ -108,7 +108,7 @@ a{
   letter-spacing:1px;
 }
 .about a:hover {
-  color: #b3b3e5;
+  color: #b9c4ff;
   font-size:18px;
 }
 
@@ -131,7 +131,7 @@ a{
 
 }
 .work a:hover {
-  color: #b3b3e5;
+  color: #b9c4ff;
   font-size:18px;
 }
 
@@ -154,19 +154,36 @@ a{
 
 }
 .contact a:hover {
-  color: #b3b3e5;
+  color: #b9c4ff;
   font-size:18px;
 }
 
 
+.startbild{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 1091px;
+   height: 787px;
+   margin-top: -393.5px; /* Halbe height */
+   margin-left: -545.5px; /* halbe width */
+}
+
+}
+
+container {
+  height: 100%;
+}
 
 /*logo*/
 .logo{
+  margin:6px 28% 0 15px;
+  z-index:1;
   position:fixed;
   width:300px;
   height:253px;
   padding:0 0 0 0;
-  margin:-11px 0 0 20;
+  margin:-6px 0 0 10px;
 }
 /*intro image*/
 .big_image{
