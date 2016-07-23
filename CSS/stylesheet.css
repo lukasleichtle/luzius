@@ -1,8 +1,14 @@
 body {
- margin: 0;
- padding: 0;
+ margin: 0 0 0 0;
+ padding: 30px 0 0 0;
  width:100%;
  height: 100%;
+ font-family:"aktiv-grotesk",sans-serif;
+ line-height:18px;
+ color:#000;
+ text-align:left;
+ background-color:#fff;
+ font-size:12px;
 
 }
 
@@ -15,6 +21,13 @@ body {
  background-size: cover;
 }
 
+.home a {
+    display: block;
+    height: 100%;
+}
+.home a span {
+    display: none;
+}
 
 .startseite {
  width: 100%;
@@ -22,33 +35,9 @@ body {
 }
 
 
-.n {
- font-family: Value-Bold, Helvetica, serif;
- font-size: 150px;
- color: white;
- opacity: 1.0;
- text-align: center;
- padding:0 20px 0 0;
- width: 100%;
- position: absolute;
- top: 50%;
- -webkit-transform: translateY(-50%);
- -ms-transform: translateY(-50%);
- transform: translateY(-50%);
-}
-
 a{
   text-decoration: none;
 }
-
-
-li:hover{
-  opacity:0.7;
-}
-.logo:hover{;
-  opacity:0.7;
-}
-
 /*.wrapper {
   width: 100%;
   max-width: 100%;
@@ -93,6 +82,83 @@ li:hover{
   margin: 0px 30px;
   float: left;
 }
+
+.about {
+  font-family:"aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color:black;
+  padding: 15px 25px 0 0;
+  /*top: 30px;*/
+  right: 0px;
+  text-align: right;
+  position: fixed;
+  z-index:5;
+  -moz-transform:rotate(-90deg); /* Firefox 3.6 Firefox 4 */
+  -webkit-transform:rotate(-90deg); /* Safari */
+  -o-transform:rotate(-90deg); /* Opera */
+  -ms-transform:rotate(-90deg); /* IE9 */
+  transform:rotate(-90deg); /* W3C */
+}
+.about a {
+  text-decoration:none;
+  color:#000;
+  font-family:"aktiv-grotesk",sans-serif;
+  letter-spacing:1px;
+}
+.about a:hover {
+  color: #b3b3e5;
+  font-size:18px;
+}
+
+.work {
+  font-family:"aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 30px;
+  left: 30px;
+  text-align: right;
+  position: fixed;
+  z-index:5;
+}
+.work a {
+  text-decoration:none;
+  color:#000;
+  font-family:"aktiv-grotesk",sans-serif;
+  letter-spacing:1px;
+
+}
+.work a:hover {
+  color: #b3b3e5;
+  font-size:18px;
+}
+
+.contact {
+  font-family:"aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  bottom: 30px;
+  right: 30px;
+  text-align: right;
+  position: fixed;
+  z-index:5;
+}
+.contact a {
+  text-decoration:none;
+  color:#000;
+  font-family:"aktiv-grotesk",sans-serif;
+  letter-spacing:1px;
+
+}
+.contact a:hover {
+  color: #b3b3e5;
+  font-size:18px;
+}
+
+
 
 /*logo*/
 .logo{
