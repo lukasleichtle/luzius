@@ -174,6 +174,7 @@ a{
 
 container {
   height: 100%;
+  overflow-x: scroll;
 }
 
 /*logo*/
@@ -253,7 +254,7 @@ li a {
   width:500px;
   height:253px;
   padding:0 0 0 0;
-  margin:220px 0 0 707px;
+  margin:245px 0 0 670px;
   font-family:"aktiv-grotesk",sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -271,6 +272,131 @@ li a {
   font-size: 30px;
   color: #5a77c2;
   text-decoration: none;
+  margin:6px 28% 0 15px;
+  z-index:1;
+  position:fixed;
+  padding:0 0 0 0;
+  margin:3px 0 0 -25px;
+  -moz-transform:rotate(-90deg); /* Firefox 3.6 Firefox 4 */
+  -webkit-transform:rotate(-90deg); /* Safari */
+  -o-transform:rotate(-90deg); /* Opera */
+  -ms-transform:rotate(-90deg); /* IE9 */
+  transform:rotate(-90deg); /* W3C */
 }
 
+/*contact*/
+.contact_list {
+  margin:6px 28% 0 15px;
+  z-index:1;
+  position:fixed;
+  width:300px;
+  height:253px;
+  padding:0 0 0 0;
+  margin:138px 0 0 670px;
+  ont-family:"aktiv-grotesk",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.3;
+
+}
+
+/*illustration gallery*/
+.bildeins {
+  right:0;
+  top:50px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: 600px;
+
+}
+
+.bildzwei {
+  top:400px;
+  position:absolute;
+  display:block;
+  width: 887px;
+  height: 600px;
+
+}
+
+.bilddrei {
+  right: 250px;
+  top:760px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: 795px;
+
+}
+
+.bildvier {
+  right: 60px;
+  top:1215px;
+  position:absolute;
+  display:block;
+  width: 400px;
+  height: 400px;
+
+}
+
+.bildfuenf {
+  top:1470px;
+  position:absolute;
+  display:block;
+  width: 800px;
+  height: 600px;
+}
+
+.bildsechs {
+  right:0;
+  top:1826px;
+  position:absolute;
+  display:block;
+  width: 716px;
+  height: 600px;
+}
+
+.bildsieben {
+  top:2150px;
+position:absolute;
+display:block;
+width: 736px;
+height: auto;
+}
+
+.bildacht {
+  right: 30px;
+  top:2450px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: 779px;
+}
+
+.bildneun {
+  top:2900px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: 900px;
+}
+
+.bildzehn {
+  right: 90px;
+  top:3380px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: auto;
+}
+
+.bildelf {
+  right: 90px;
+  top:3380px;
+  position:absolute;
+  display:block;
+  width: 600px;
+  height: auto;
 }
